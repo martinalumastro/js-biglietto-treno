@@ -35,7 +35,7 @@ let prezzoBaseAdulto = prezzoBase.toFixed(2)
 
 if(etaPasseggero < 18) {
     console.log(prezzoUnder18 + '€ prezzo con sconto del 20% per Under 18');
-} else if(etaPasseggero >= 65) {
+} else if(etaPasseggero > 65) {
     console.log(prezzoOver65 + '€ prezzo con sconto del 40% per Over65');
 } else {
     console.log(prezzoBaseAdulto +'€ prezzo non scontato per tutti i passeggeri maggiorenni e con un\' età inferiore ai 65 anni')
