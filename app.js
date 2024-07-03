@@ -24,13 +24,13 @@ console.log(prezzoBase + '€ prezzo base che il passeggero deve pagare');
 
 //Prezzo under 18 con sconto applicato
 let prezzoUnder18 = prezzoBase - (prezzoBase * 0.2)
-prezzoUnder18 = prezzoUnder18.toFixed(2)
+prezzoUnder18 = prezzoUnder18.toFixed(2) //stringa
 
 //Prezzo Over 65 con sconto applicato
 let prezzoOver65 = prezzoBase - (prezzoBase * 0.4)
-prezzoOver65 = prezzoOver65.toFixed(2)
+prezzoOver65 = prezzoOver65.toFixed(2) //stringa
 
-let prezzoBaseAdulto = prezzoBase.toFixed(2)
+let prezzoBaseAdulto = prezzoBase.toFixed(2) //stringa
 
 
 if(etaPasseggero < 18) {
